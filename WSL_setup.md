@@ -19,6 +19,9 @@
 		- Ubuntu-24.04 Running Versionが2 であることを確認
 			- 異なる場合、PowerShell上で wsl --install -d Ubuntu-24.04 を実行
 
+<img width="561" height="150" alt="image" src="https://github.com/user-attachments/assets/6f80551c-5432-4bad-814e-37ac79be2517" />
+
+
 ### Ubuntu の初期設定
 - Ubuntu上でLinux のユーザー名とパスワードを設定する
 	- パスワードは控えておく
