@@ -1,5 +1,4 @@
-
-- 初学者用
+- 共有用のため冗長な説明あり
 - [WSL で Docker コンテナーを始めよう \| Microsoft Learn](https://learn.microsoft.com/ja-jp/windows/wsl/tutorials/wsl-containers)
 	- 前提条件 補足：PCメモリは8GB以上ないとDocker厳しい
 
