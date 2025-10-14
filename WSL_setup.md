@@ -1,5 +1,5 @@
 
-
+- 初学者用
 - [WSL で Docker コンテナーを始めよう \| Microsoft Learn](https://learn.microsoft.com/ja-jp/windows/wsl/tutorials/wsl-containers)
 	- 前提条件 補足：PCメモリは8GB以上ないとDocker厳しい
 
@@ -37,6 +37,14 @@
 巷記事のDockerインストール方法は古い可能性があるため、以下公式Doc推奨
 - [Ubuntu \| Docker Docs](https://docs.docker.com/engine/install/ubuntu/#install-using-the-convenience-script)
 	- Install using the apt repository の１～３まで実施
+
+下コマンドはまとめてコピーして実行する。それ以外は1行ずつ実行。
+```
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "${UBUNTU_CODENAME:-$VERSION_CODENAME}") stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+```
 
 ### VSCodeインストール
 - [Download Visual Studio Code - Mac, Linux, Windows](https://code.visualstudio.com/download)
