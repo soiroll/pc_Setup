@@ -34,6 +34,7 @@
 
 ### Dockerインストール
 巷記事のDockerインストール方法は古い可能性があるため、以下公式Doc推奨
+Docker Desktopはライセンス関係上、念のため使わない
 - [Ubuntu \| Docker Docs](https://docs.docker.com/engine/install/ubuntu/#install-using-the-convenience-script)
 	- Install using the apt repository の１～３まで実施
 
