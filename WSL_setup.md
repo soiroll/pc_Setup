@@ -33,7 +33,7 @@
 - 参考：[WSL 開発環境を設定する \| Microsoft Learn](https://learn.microsoft.com/ja-jp/windows/wsl/setup/environment#set-up-your-linux-username-and-password)
 
 ### Dockerインストール
-巷記事のDockerインストール方法は古い可能性があるため、以下公式Doc推奨
+巷記事のDockerインストール方法は古い可能性があるため、以下公式Doc推奨  
 Docker Desktopはライセンス関係上、念のため使わない
 - [Ubuntu \| Docker Docs](https://docs.docker.com/engine/install/ubuntu/#install-using-the-convenience-script)
 	- Install using the apt repository の１～３まで実施
