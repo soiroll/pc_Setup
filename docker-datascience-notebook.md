@@ -7,6 +7,7 @@
 1. エクスプローラーのアドレスバーに \\wsl$ を入力
 2. \\wsl.localhost\Ubuntu-xxxx\home\$USER\workspase 配下にファイル構成で設置
 
+```
 .devcontainer/
 .ipynb_checkpoints/
 Dockerfile
@@ -15,7 +16,7 @@ Project.toml
 Untitled.ipynb
 docker-compose.yml
 extent/
-
+```
 
 ## WSL側
 ```
