@@ -5,8 +5,9 @@
 
 ## Windows側
 1. エクスプローラーのアドレスバーに `\\wsl$` を入力
-2. \\wsl.localhost\Ubuntu-xxxx\home\$USER\workspase 配下にファイル構成で設置
+2. \\wsl.localhost\Ubuntu-xxxx\home\$USER\workspase 配下に docker-datascience-notebook フォルダを移動
 
+docker-datascience-notebook 配下の構成
 ```
 .devcontainer/
 .ipynb_checkpoints/
@@ -20,6 +21,7 @@ extent/
 
 ## WSL側
 ```
+# docker-datascience-notebook フォルダに移動
 cd /home/$USER/workspace/docker-datascience-notebook
 
 # Docker イメージ作成 （時間がすごくかかる）
