@@ -36,8 +36,16 @@ datascience-notebook    251120       xxxxxxx        7 weeks ago     8.72GB
 # Dockerコンテナ起動
 docker compose -f docker-compose.yml -f .devcontainer/docker-compose.yml up -d
 
+[+] Running 2/2
+ ✔ Network docker-julia_default      Created                                                                                         0.1s 
+ ✔ Container docker-julia-jupyter-1  Started                                                                                         0.4s 
+
 # Dockerコンテナ停止
 docker compose down
+
+[+] Running 2/2
+ ✔ Container docker-julia-jupyter-1  Removed                                                                                         0.7s 
+ ✔ Network docker-julia_default      Removed 
 ```
 
 ## Dockerコンテナ内にVscode上から接続
