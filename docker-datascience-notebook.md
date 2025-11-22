@@ -5,7 +5,7 @@
 
 ## Windows側
 1. エクスプローラーのアドレスバーに `\\wsl$` を入力
-2. \\wsl.localhost\Ubuntu-xxxx\home\$USER\workspase 配下に docker-datascience-notebook フォルダを移動
+2. `\\wsl.localhost\Ubuntu-xxxx\home\$USER\workspase` 配下に docker-datascience-notebook フォルダを移動
 
 docker-datascience-notebook 配下の構成
 ```
