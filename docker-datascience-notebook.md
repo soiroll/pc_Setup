@@ -4,7 +4,7 @@
 - WSL上で `mkdir -p /home/$USER/workspace/` を実行
 
 ## Windows側
-1. エクスプローラーのアドレスバーに \\wsl$ を入力
+1. エクスプローラーのアドレスバーに `\\wsl$` を入力
 2. \\wsl.localhost\Ubuntu-xxxx\home\$USER\workspase 配下にファイル構成で設置
 
 ```
