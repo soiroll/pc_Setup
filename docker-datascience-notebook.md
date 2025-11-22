@@ -25,7 +25,7 @@ cd /home/$USER/workspace/docker-datascience-notebook
 # Docker イメージ作成 （時間がすごくかかる）
 docker build -t datascience-notebook:251120 -f Dockerfile .
 
-# 作成したDocker イメージ一覧（出力零）
+# 作成したDocker イメージ一覧（出力例）
 docker images
 -------
 REPOSITORY              TAG          IMAGE ID       CREATED         SIZE
