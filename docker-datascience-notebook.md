@@ -26,12 +26,8 @@ extent/
 1. docker-datascience-notebook フォルダに移動  
 `cd /home/$USER/workspace/docker-datascience-notebook`
   
-2. Manifest.toml を削除し、Dockerfile 33, 39, 40行目を以下のように編集し、ctrl + S で保存
+2. Manifest.toml を削除し、Dockerfile 39, 40行目を以下のように編集し、ctrl + S で保存
 ```
-～～～～
-JULIA_DEPOT_PATH=/opt/julia_depot
-# JULIA_DEPOT_PATH=/opt/julia_depot:/opt/julia
-～～～～
 # COPY --chown=${NB_USER}:${NB_GID} Project.toml Manifest.toml /opt/julia_env/
 COPY --chown=${NB_USER}:${NB_GID} Project.toml /opt/julia_env/
 ```
