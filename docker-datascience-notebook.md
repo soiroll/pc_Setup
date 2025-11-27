@@ -75,7 +75,7 @@ docker compose down
 ## Julia パッケージの永続化
 ### コンテナ内で
 ```
-mkdir /home/jovyan/work//julia_depot
+mkdir /home/jovyan/work/julia_depot
 (cd /opt/julia_depot && tar cf - .) | (cd /home/jovyan/work/julia_depot && tar xvf -)
 ```
 
