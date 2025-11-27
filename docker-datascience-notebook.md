@@ -38,7 +38,7 @@ COPY --chown=${NB_USER}:${NB_GID} Project.toml /opt/julia_env/
   
 3. Docker イメージ作成 （時間がすごくかかる）
 ```
-docker build -t datascience-notebook:251120 -f Dockerfile .
+docker build --no-cache -t datascience-notebook:251120 -f Dockerfile .
 
 # 作成したDocker イメージ一覧（出力例）
 docker images
@@ -84,7 +84,7 @@ mkdir /home/jovyan/work//julia_depot
 (cd /opt/julia_depot && tar cf - .) | (cd /home/jovyan/work/julia_depot && tar xvf -)
 ```
 
-## WSL側
+### WSL側
 1. `docker compose down` で一度コンテナを停止
 2. docker-compose.yaml の修正 (コメントアウトを外す)
 ```
