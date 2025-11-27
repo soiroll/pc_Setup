@@ -13,7 +13,6 @@
 docker-datascience-notebook 配下の構成
 ```
 .devcontainer/
-.ipynb_checkpoints/
 Dockerfile
 Project.toml
 Untitled.ipynb
