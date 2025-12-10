@@ -1,0 +1,125 @@
+/* https://note.com/iiz00/n/n0a73190f2c8c */
+
+/* --------------compact tabs--------------------*/
+.workspace .mod-root .workspace-tab-header {
+  width: 120px;
+  max-width: var(--tab-width);
+  max-height: none;
+  /* border: 1px solid var(--color-base-50); */
+}
+
+.workspace-tab-header-inner {
+  width: auto;
+}
+
+body {
+  --tab-outline-color: auto;
+}
+
+/* --------------multiple tab rows--------------------*/
+.workspace .mod-root .workspace-tab-header-container {
+  display: flex;
+  height: unset;
+}
+
+/* .workspace .mod-root .workspace-tab-header-container-inner {
+  flex-wrap: wrap;
+  margin: unset;
+  padding: unset;
+  flex: 1 1 auto;
+} */
+
+/* 変更: タブをグリッド化して並び替え対応 */
+.workspace .mod-root .workspace-tab-header-container-inner {
+  /* display: grid; */
+  /* grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); */
+  /* grid-auto-flow: row; */
+  gap: 2px; 
+  padding: unset;
+  margin: unset;
+  flex: 1 1 auto;
+  flex-wrap: wrap;
+}
+
+
+/* wrapping rows */
+.workspace .mod-root .workspace-tab-header {
+  flex: 0 1 auto !important;
+  min-height: 20px;
+  min-width: 40px;
+}
+
+/* New tab button positioning - put it before tab list */
+.mod-root .workspace-tab-header-new-tab {
+  display: flex;
+  padding: unset;
+  order: 1;
+}
+
+/* Tab list button positioning */
+.workspace-tab-header-tab-list {
+  display: flex;
+  margin-left: auto;
+  order: 2;
+}
+
+/* hide inactive close button */
+.workspace .mod-root .workspace-tabs:not(.mod-stacked) .workspace-tab-header:not(.is-active) .workspace-tab-header-inner-close-button {
+  display: flex;
+}
+
+/* Tab stack specific fixes */
+.workspace .mod-root .workspace-tabs.mod-stacked .workspace-tab-header-container {
+  display: flex;
+  height: var(--header-height);
+}
+
+.workspace .mod-root .workspace-tabs.mod-stacked .workspace-tab-header-container-inner {
+  flex-wrap: nowrap;
+}
+
+/* Fix tab stack padding 反応しない */
+/* .workspace .mod-root .workspace-tabs.mod-stacked .workspace-tab-header {
+  padding: 0 8px;
+}
+
+.workspace .mod-root .workspace-tabs.mod-stacked .workspace-tab-header-inner {
+  padding: 0;
+} */
+
+/* Additional styles from your code */
+/* ファイル名のフォントサイズ変更 */
+.workspace-tab-header-inner-title {
+  font-size: 11px;
+}
+
+/* タブの区切り線を表示 */
+/* .workspace .mod-root .workspace-tab-header-inner::after {
+  position: absolute;
+  inset-inline-end: -0.7px;
+  width: 1px;
+  background-color: var(--tab-divider-color);
+  content: '';
+  height: 20px;
+} */
+
+/* タブ最初の空白を消す */
+.workspace-split.mod-root .workspace-tab-header-container-inner .workspace-tab-header:first-child {
+  margin-left: 0px;
+}
+
+
+
+
+/* https://masaki39.github.io/%F0%9F%93%98Obsidian%E3%81%AE%E3%82%B9%E3%82%BF%E3%83%83%E3%82%AF%E3%82%BF%E3%83%96%E3%82%92%E4%BD%BF%E3%81%84%E3%81%93%E3%81%AA%E3%81%97%E3%81%9F%E3%81%84 */
+/* タブをタブタイトルバーの裏に透明表示する */
+/* .mod-root .workspace-tabs .workspace-tab-header-container {
+  width: 100%;
+  height:var(--header-height)!important;
+  opacity: 0;
+  position: fixed;
+} */
+/* 内部の要素を非表示 */
+/* .mod-root .workspace-tabs .workspace-tab-header-container * {
+  display: none;
+} */
