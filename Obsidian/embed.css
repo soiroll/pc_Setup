@@ -84,6 +84,11 @@
   background-color: var(--myCodeColor);
 }
 
+/* コールアウト  */
+.callout-content code {
+  background-color: var(--myCodeColor);
+}
+
 /* ===== リーディングビュー ===== */
 
 /* コードブロック */
