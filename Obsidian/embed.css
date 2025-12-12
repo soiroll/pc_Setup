@@ -27,6 +27,7 @@
   content: "🌍"; /* 好きなUnicode絵文字やアイコンフォントに変更 */
   font-size: 16px; /* アイコンのサイズ調整 */
   margin-left: 4px; /* 文字とアイコンの間隔 */
+  margin-right: -10px;
   color: var(--text-muted); /* アイコンの色をテーマに合わせる */
 }
 
