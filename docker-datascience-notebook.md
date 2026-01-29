@@ -32,13 +32,13 @@ COPY --chown=${NB_USER}:${NB_GID} Project.toml /opt/julia_env/
   
 3. Docker イメージ作成 （時間がすごくかかる）
 ```
-docker build --no-cache -t datascience-notebook:251120 -f Dockerfile .
+docker build --no-cache -t datascience-notebook:260126 -f Dockerfile .
 
 # 作成したDocker イメージ一覧（出力例）
 docker images
 -------
 REPOSITORY              TAG          IMAGE ID       CREATED         SIZE
-datascience-notebook    251120       xxxxxxx        7 weeks ago     8.72GB
+datascience-notebook    260126       xxxxxxx        1 weeks ago     8.28GB
 ```
 
 4. docker-compose.yaml の修正 (コメントアウトする)
