@@ -13,11 +13,10 @@
 docker-datascience-notebook 配下の構成
 ```
 .devcontainer/
+docker-compose.yml
 Dockerfile
 Project.toml
-Untitled.ipynb
-docker-compose.yml
-extent/
+sample.ipynb
 ```
 
 ## WSL側
